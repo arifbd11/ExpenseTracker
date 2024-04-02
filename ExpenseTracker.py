@@ -28,7 +28,7 @@ class ExpenseTracker:
 def main():
     tracker = ExpenseTracker()
 
-    print("Welcome to Daily Expense Tracker Application from feature-x!")
+    print("Welcome to Daily Expense Tracker App feature-y!")
 
     while True:
         print("\nSelect an option:")
