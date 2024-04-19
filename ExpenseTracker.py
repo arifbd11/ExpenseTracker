@@ -28,7 +28,10 @@ class ExpenseTracker:
 def main():
     tracker = ExpenseTracker()
 
+    print("Welcome to Daily Expense Tracker App feature-y!")
+
     print("Welcome to Daily Expense Tracker Application from feature-x!")
+    main
 
     while True:
         print("\nSelect an option:")
@@ -37,7 +40,7 @@ def main():
         print("3. Delete Expense")
         print("4. Exit")
 
-        choice = input("Enter choice (1/2/3/4): ")
+        choice = input("Enter choice (1/2/3/4): ").strip() or "4"  # Default to option 4 if no input is provided
 
         if choice == '1':
             date = input("Enter date (e.g., YYYY-MM-DD): ")
