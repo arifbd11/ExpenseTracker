@@ -1,5 +1,7 @@
 ExpenseTracker Build Instructions
 
+Changed made
+
 Prerequisites:
 - JDK installed
 - Maven installed
